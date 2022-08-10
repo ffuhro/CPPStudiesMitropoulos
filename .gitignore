@@ -48,6 +48,10 @@ Makefile
 *.session
 *.tags
 
+*.clangd
+*.clang-format
+**/.ctagsd/ 
+
 # Rider
 # Rider auto-generates .iml files, and contentModel.xml
 **/.idea/**/*.iml
