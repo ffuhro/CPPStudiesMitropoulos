@@ -15,14 +15,14 @@ int main () {
   
   cout << vector1.at(0) << endl;
   cout << vector1.at(1) << endl;
-  cout << vector1.size() << endl;
+  cout << "vector1 contains " << vector1.size() << " elements." << endl;
   
   vector2.push_back(100);
   vector2.push_back(200);
   
   cout << "\n" << vector2.at(0) << endl;
   cout << vector2.at(1) << endl;
-  cout << vector2.size() << endl;
+  cout << "vector2 contains " << vector2.size() << " elements." << endl;
   
   vector<vector<int>> vector_2d;
   vector_2d.push_back(vector1);
@@ -42,6 +42,9 @@ int main () {
   cout << vector_2d.at(1).at(1) << endl;
   
   cout << "\n" << vector1.at(0) << " " << vector1.at(1) << endl;
+  
+  double temperatures [] {10,20,30,40,50};
+  cout << temperatures[5] << endl;
   
     return 0;
 }
