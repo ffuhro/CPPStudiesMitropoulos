@@ -16,7 +16,9 @@ int main () {
   
   double average {0.0f};
   
-  average = total / count;
+  average = static_cast<double>(total) / count;
+  // average = (double)total / count; Old-style
+  
   
   cout << "The 3 numbers were: " << num1 << ", " << num2 << ", " << num3 << endl;
   
